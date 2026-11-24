@@ -1,0 +1,38 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data: the dataset is not redistributed, download it from Kaggle
+data/raw/*
+!data/raw/.gitkeep
+
+# Models and binaries
+models/
+*.pkl
+*.joblib
+
+# Course material and private files
+reports/*.docx
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local-only material (original course notebook, course templates, outdated slides)
+archive/
+reports/*.pptx
